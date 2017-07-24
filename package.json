@@ -1,0 +1,21 @@
+{
+  "name": "svg-compressor",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gulpfile.js",
+  "scripts": {
+    "compress": "gulp compress",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://Flamov@github.com/Flamov/svg-compressor.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "homepage": "https://github.com/Flamov/svg-compressor#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-svgmin": "^1.2.4"
+  }
+}
