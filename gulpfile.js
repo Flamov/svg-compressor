@@ -38,8 +38,6 @@ gulp.task('svg-normal', function() {
 	var optionsNormal = JSON.parse(JSON.stringify(defaultOptions));
 	optionsNormal.push({ mergePaths: false });
 
-	console.log(optionsNormal);
-
 	return gulp.src(source)
 		.pipe(svgmin({
 			plugins: optionsNormal
@@ -52,8 +50,6 @@ gulp.task('svg-merge', function() {
 
 	var optionsMerge = JSON.parse(JSON.stringify(defaultOptions));
 	optionsMerge.push({ mergePaths: true });
-
-	console.log(optionsMerge);
 
 	return gulp.src(source)
 		.pipe(svgmin({
